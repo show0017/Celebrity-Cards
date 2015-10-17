@@ -1,0 +1,6 @@
+<h1>{{ celebrity.full_name }}</h1>
+<img src="img/{{ celebrity.image }} " class="img-responsive" alt="photo of {{ celebrity.full_name }}">
+<p class="top-buffer-sm"><strong>Famous Movie:</strong> {{ celebrity.famous_movie }}</p>
+<p><strong>Age:</strong> {{celebrity.age  }}</p>
+<p><strong>income:</strong> {{ celebrity.income | currency}}</p>
+<a class="btn btn-primary" href="#/" role="button">Back to Cards</a>
